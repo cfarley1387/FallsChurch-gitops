@@ -1,6 +1,6 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #
-# iPads.yml
+# ipads.yml
 #
 # Use this fleet manifest to configure controls, software,
 # and settings that apply only to computing devices (hosts)
@@ -16,7 +16,7 @@
 #   • https://fleetdm.com/docs/configuration/yaml-files
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-name: "📱🔐 Personal mobile devices"
+name: "ipads"
 controls:
   setup_experience:
     ###########################################################
