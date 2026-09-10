@@ -70,13 +70,6 @@ controls:
   #     - "x86-based Windows hosts"
   # ```  
   ###########################################################
-  apple_settings:
-    configuration_profiles:
-      - paths: ../platforms/macos/declaration-profiles/*.json
-      - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
-  windows_settings:
-    configuration_profiles:
-      - paths: ../platforms/windows/configuration-profiles/*.xml
 
   ###########################################################
   # Managed disk encryption
@@ -100,9 +93,9 @@ controls:
   #   • https://fleetdm.com/docs/configuration/yaml-files#windows-updates
   #   • https://fleetdm.com/guides/enforce-os-updates
   ###########################################################
-    macos_updates:
-     deadline: "2026-09-30"
-     minimum_version: "26.6"
+  macos_updates:
+   deadline: "2026-09-30"
+   minimum_version: "26.6"
   #   update_new_hosts: true
   # windows_updates:
   #   deadline_days: 7
