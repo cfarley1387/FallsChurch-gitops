@@ -19,8 +19,8 @@ controls:
   apple_settings:
     configuration_profiles:
       - path: ../platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
-      labels_include_all:
-        - Department - Engineering
+        labels_include_all:
+          - Department - Engineering
   setup_experience:
     ###########################################################
     # Configure the macOS setup experience
